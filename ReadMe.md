@@ -13,7 +13,7 @@ Participants should bring either a Windows or Mac laptop that is setup for Xamar
 - Install the Prism QuickStart Templates for the dotnet cli. NOTE: This requires v2.0 preview 3 or later. You can get the latest v2.0 build [here](https://github.com/dotnet/cli/tree/release/2.0.0)
 
 ```bash
-dotnet new -i Prism.Forms.QuickstartTemplates::1.0.0-*
+dotnet new -i Prism.Forms.QuickstartTemplates::*
 ```
 
 - Visual Studio 2017 or Visual Studio for Mac (any edition will work)
