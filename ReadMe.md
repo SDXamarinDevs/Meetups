@@ -9,10 +9,14 @@ All meetups are suitable for participants who are just learning to program and h
 Participants should bring either a Windows or Mac laptop that is setup for Xamarin Development.
 
 - Mac users should install [PowerShell](https://github.com/PowerShell/PowerShell).
-- Install the dotnet cli. You may get by with the stable release, however there are a lot of fixes in v2 and we recommend that you have the [preview](https://github.com/dotnet/cli/tree/release/2.0.0) installed.
-- Install the Prism QuickStart Templates for the dotnet cli. NOTE: This requires v2.0 preview 3 or later. You can get the latest v2.0 build [here](https://github.com/dotnet/cli/tree/release/2.0.0)
+- Install the dotnet cli. Please make sure that you have the version 2.0. You can download it [here](https://www.microsoft.com/net/download/core)
+- Install the Prism QuickStart Templates for the dotnet cli. NOTE: This requires v2.0 or later. You can get v2.0 [here](https://www.microsoft.com/net/download/core)
 
 ```bash
+# You can check your version of the dotnet cli with the following:
+dotnet --version
+
+# Install the Prism QuickStart Templates
 dotnet new -i Prism.Forms.QuickstartTemplates::*
 ```
 
